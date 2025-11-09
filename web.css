@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(29, 100%, 82%);
+    text-decoration:none;
+}
+h1{
+    font-family: "DM Serif Display";
+    display: flex;
+    justify-content: center;
+    min-height: 130px;
+    align-items: center;
+    font-size: 3rem;
+    color: hsl(231, 47%, 22%);
+    margin-bottom: 100px;
+    cursor: default;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-size: 2.5rem;
+    font-family: "DM Serif Display";
+    font-weight: bold;
+    border: 2px solid hsl(231, 47%, 22%);
+    border-radius: 5px;
+    width: 80vw;
+    padding: 10px;
+    background-color: hsl(231, 47%, 22%);
+    color:white;
+    margin-bottom: 50px;
+    cursor:pointer;
+}
+button:hover{
+    text-decoration: underline;
+}
+#icon{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 4.5rem;
+    color: hsl(231, 47%, 22%);
+    cursor: pointer;
+    background-color: transparent;
+}
+.element::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+}
